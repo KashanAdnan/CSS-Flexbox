@@ -38,7 +38,7 @@
 
 .main {
     width: 100%;
-    height: 89vh;
+    min-height: 40rem;
     background-color: gainsboro;
     display: flex;
     flex-wrap: wrap;
@@ -80,4 +80,13 @@ footer {
     align-items: center;
     justify-content: center;
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .content{
+        text-align: center;
+        width: 90%;
+        height: 350px;
+        align-items: center;
+    }
 }

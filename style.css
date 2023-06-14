@@ -9,14 +9,17 @@
 .navbar {
     width: 100%;
     height: 70px;
-    border: 1px solid red;
     display: flex;
+    background-color: red;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .navbar h1 {
     font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 30px;
 }
 
 .navbar .navitems {
@@ -24,20 +27,22 @@
     align-items: center;
     justify-content: center;
     list-style: none;
+    margin-right: 30px;
 }
 
 .navitems li a {
     text-decoration: none;
     margin-left: 20px;
-    color: green;
+    color: #fff;
 }
 
 .main {
     width: 100%;
-    height: 530px;
+    height: 89vh;
+    background-color: gainsboro;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 
@@ -54,14 +59,24 @@
     flex-direction: column;
 }
 
-.content h1{
+.content h1 {
     font-size: 50px;
 }
 
-.content button{
+.content button {
     padding: 10px 30px;
     background-color: red;
     border-radius: 5px;
     color: #fff;
     border: 1px solid #fff;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
